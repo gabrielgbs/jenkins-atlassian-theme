@@ -185,6 +185,10 @@ a:hover, a:active {
     background-color: #f7f7f7;
 }
 
+#projectstatus th {
+    padding: 7px 3px !important;
+}
+
 .bigtable {
     border:1px solid #dcdcdc;
     background-color: #fff;
@@ -221,7 +225,7 @@ div.pane-header {
     font-weight: bold;
     font-size: 13px;
     min-height: 24px;
-    padding: 4px 64px 4px 0px;
+    padding: 4px 16px 4px 0px;
     line-height: 1.666666666667;
 }
 
@@ -238,19 +242,24 @@ div.pane-header, div.pane-header a:link, div.pane-header a:visited {
 }
 
 #side-panel {
-    background-color: #f5f5f5!important;
+    margin: 20px !important;
+    background-color: #f5f5f5 !important;
 /*
     padding-left: 0!important;
 */
     padding-right: 0!important;
+    padding-bottom: 15px !important;
     height: 100%!important;
     border: solid #ccc;
-    border-top-width: 0;
+    border-top-width: 1px;
     border-right-width: 1px;
-    border-left-width: 0;
+    border-left-width: 1px;
     border-bottom-width: 1px;
     box-shadow: 0 1px 0 #e7f0f8;
+/*
     min-height: 800px;
+*/
+    width: 260px !important;
 }
 
 #side-panel .task a {
@@ -308,6 +317,8 @@ td.progress-bar-done {
 
 #main-panel {
     background-color: #fff;
+    margin-left: 300px !important;
+    margin-right: 20px !important;
 }
 
 #main-panel > h1 {
@@ -406,14 +417,15 @@ td.progress-bar-done {
 
 /* footer panel  */
 
-#footer {
+footer {
+    display: none;
     border-top: 0 none;
     text-align: center;
     color: #707070;
 }
 
 
-#footer a:link, #footer a:visited {
+footer a:link, footer a:visited {
     color:#707070;
 }
 
