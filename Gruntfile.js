@@ -4,14 +4,16 @@ module.exports = function(grunt) {
     concat: {
             css: {
            src: [
-                 'src/*.css'
+                 'src/balls.css',
+                 'src/login.css',
+                 'src/style.css',
                 ],
             dest: 'dist/theme.css'
         },
         js : {
             src : [
                 'src/login.js',
-                'src/toggle.js' 
+                //'src/toggle.js' 
             ],
             dest : 'dist/theme.js'
         }
