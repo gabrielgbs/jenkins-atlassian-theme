@@ -327,8 +327,8 @@ td.progress-bar-done {
     background-color: #f5f5f5;
     border: solid #ccc;
     border-top-width: 1px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
     border-bottom-width: 1px;
     margin: 2px;
 }
