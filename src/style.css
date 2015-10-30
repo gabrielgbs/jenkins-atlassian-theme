@@ -154,9 +154,9 @@ a:hover, a:active {
 #projectstatus tr{
     background: #fff;
     border: solid;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
     border-bottom-width: 1px;
     border-color: #ccc;
 }
