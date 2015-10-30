@@ -239,7 +239,9 @@ div.pane-header, div.pane-header a:link, div.pane-header a:visited {
 
 #side-panel {
     background-color: #f5f5f5!important;
+/*
     padding-left: 0!important;
+*/
     padding-right: 0!important;
     height: 100%!important;
     border: solid #ccc;
@@ -496,8 +498,3 @@ tr.permission-row:nth-child(even) {
     background-image: -webkit-radial-gradient(3px 3px, circle cover, #f0ad4e, #d58512);
     background-image: radial-gradient(circle at 3px 3px, #f0ad4e 0%, #d58512 100%);
 }
-
-
-
-
-
